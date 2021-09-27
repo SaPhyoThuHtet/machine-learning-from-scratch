@@ -1,2 +1,2 @@
 # machine-learning-from-scratch
-ML and DL from Scratch
+Machine Learning and Deep Learning Algorithms from Scratch

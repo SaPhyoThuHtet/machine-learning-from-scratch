@@ -1,4 +1,10 @@
-ROC and AUC: https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc
-Sensitivity: True Positive Rate
+ROC and AUC: 
+1. https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc
+2. StatQuest: https://youtu.be/4jRBRDbJemM 
+Sensitivity(Recall): True Positive Rate
 Specificity:
 False Positive Rate: 1-Specificity
+
+
+Sensivity and Specifity: 
+https://en.m.wikipedia.org/wiki/Sensitivity_and_specificity

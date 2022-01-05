@@ -1,1 +1,4 @@
 ROC and AUC: https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc
+Sensitivity: True Positive Rate
+Specificity:
+False Positive Rate: 1-Specificity

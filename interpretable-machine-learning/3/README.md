@@ -12,6 +12,11 @@ Post hoc interpretability refers to the application of interpretation methods af
 
 Post hoc methods can also be applied to intrinsically interpretable models. For example, permutation feature importance can be computed for decision trees.
 
+**Result of the interpretation method**
+ The various interpretation methods can be roughly differentiated according to their results.
+**Feature Summary Statistics**: Many interpretation methods provide summary statistics for each feature. Some methods return a single number per feature, such as feature importance, or a more complex result, such as the pairwise feature interaction strengths, which consist of a number for each feature pair.
+**
+
 
 **Model-specific or model-agnostic?**
 

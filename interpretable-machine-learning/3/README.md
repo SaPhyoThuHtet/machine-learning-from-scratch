@@ -29,8 +29,7 @@ The partial dependence of a feature is such a case.
 Partial dependence plots are curves that show a feature and the average predicted outcome. 
 The best way to present partial dependences is to actually draw the curve instead of printing the coordinates.
 
-**
-Model internals (e.g. learned weights):**
+**Model internals (e.g. learned weights):**
 Linear models လိုမျိုးဟာ​​တွေရဲ့ weights က models internals ​​ကော frature summary statistics အတွက်​ကော တူတူပဲဖြစ်​နေလို့။
 The interpretation of intrinsically interpretable models falls into this category.
 Examples are the weights in linear models or the learned tree structure (the features and thresholds used for the splits) of decision trees. 

@@ -1,3 +1,13 @@
 An algorithm trains a model that produces the predictions.
 Each step can be evaluated in terms of transparency or interpretability.
 Step တစ်ခုချင်းစီကို transparency နှင့်ဖြစ်​စေ interpretability နှင့် ဖြစ်​စေ တိုင်းတာလို့ ရပါတယ်။
+
+**3.3.1 Algorithm Transparency**
+
+How does the algorithm create the model?
+
+Algorithm transparency is about how the algorithm learns a model from the data and what kind of relationships it can learn.
+ဒီစာအုပ်မှာ​တော့ Algorithm Transparency အ​ကြောင်း အများကြီး ​ပြောသွားမှာ မဟုတ်ပါဘူး။
+
+
+

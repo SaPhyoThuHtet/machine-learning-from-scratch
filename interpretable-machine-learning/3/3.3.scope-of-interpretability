@@ -22,6 +22,11 @@ Deep learning ​တွေက​တော့ less transparent ဖြစ်​န
 How does the trained model make predictions?
 Trained Model က prediction ​တွေ ဘယ်လိုလုပ်တာလဲ?
 
+To explain the global model output, you need the trained model, knowledge of the algorithm and the data. 
+Global Model Output ကိုရှင်းပြဖို့ဆိုရင် trained model လိုမယ်။ knowledge of algo နဲ့ data လိုမယ်။
+
+This level of interpretability is about understanding how the model makes decisions, based on a holistic view of its features and each of the learned components such as weights, other parameters, and structures. 
+ခုinterpretability level ဟာဆိုရင် feature တို့ weights တို့ parameter တို့ကို အ​ခြေခံပြီး model က decision ဘယ်လို လုပ်သွားလဲဆိုတာကို နားလည်တဲ့ အဆင့်ပဲ ဖြစ်ပါသည်။
 
 **3.3.3 Global Model Interpretability on a Modular Level**
 

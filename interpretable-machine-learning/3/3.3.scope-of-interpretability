@@ -38,6 +38,18 @@ Global model interpretability က လက်​တွေ့မှာ ရဖို
 **3.3.3 Global Model Interpretability on a Modular Level**
 
 How do parts of the model affect predictions?
+While global model interpretability is usually out of reach, 
+there is a good chance of understanding at least some models on a modular level. 
+
+Not all models are interpretable at a parameter level.
+For linear models, the interpretable parts are the weights, for trees it would be the splits (selected features plus cut-off points) and leaf node predictions.
+Linear models ​တွေအတွက် interpretable ဖြစ်တဲ့ အပိုင်း​တွေက weights ​တွေ ဖြစ်ပြီး။ ....
+
+Linear models, for example, look like as if they could be perfectly interpreted on a modular level, but the interpretation of a single weight is interlocked with all other weights. 
+
+linear model that predicts the value of a house, that takes into account both the size of the house and the number of rooms, can have a negative weight for the room feature. It can happen because there is already the highly correlated house size feature. In a market where people prefer larger rooms, a house with fewer rooms could be worth more than a house with more rooms if both have the same size. The weights only make sense in the context of the other features in the model. But the weights in a linear model can still be interpreted better than the weights of a deep neural network.
+
+
 
 
 

@@ -28,6 +28,13 @@ Global Model Output ကိုရှင်းပြဖို့ဆိုရင်
 This level of interpretability is about understanding how the model makes decisions, based on a holistic view of its features and each of the learned components such as weights, other parameters, and structures. 
 ခုinterpretability level ဟာဆိုရင် feature တို့ weights တို့ parameter တို့ကို အ​ခြေခံပြီး model က decision ဘယ်လို လုပ်သွားလဲဆိုတာကို နားလည်တဲ့ အဆင့်ပဲ ဖြစ်ပါသည်။
 
+Which features are important and what kind of interactions between them take place? 
+Global model interpretability helps to understand the distribution of your target outcome based on the features. 
+ဘယ် feature ​တွေက အ​​ရေးကြီးလဲ နဲ့ interactions ​တွေကဆိုတာ​တွေ​ပေါ့။
+
+Global model interpretability is very difficult to achieve in practice. Any model that exceeds a handful of parameters or weights is unlikely to fit into the short-term memory of the average human. I argue that you cannot really imagine a linear model with 5 features, because it would mean drawing the estimated hyperplane mentally in a 5-dimensional space. Any feature space with more than 3 dimensions is simply inconceivable for humans. Usually, when people try to comprehend a model, they consider only parts of it, such as the weights in linear models.
+Global model interpretability က လက်​တွေ့မှာ ရဖို့ခက်တယ်။ လူ​တွေက 3 dimension အထက်ဆို နားလည်ဖို့က ခက်တယ်မှတ်လား အဲ့တာဆို​တော့ parameter ​တွေ feature ​တွေများလာရင် အဆင်ဘယ်​ပြေမလဲ။
+
 **3.3.3 Global Model Interpretability on a Modular Level**
 
 How do parts of the model affect predictions?

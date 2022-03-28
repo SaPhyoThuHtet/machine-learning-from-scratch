@@ -1,0 +1,12 @@
+Rules are quite understanable.
+(Rules ​တွေက Conclusion လည်း ချလို့ရ​စေတယ်)
+
+LIME - နဲ့ကျ​တော့ ဘယ်အချက်​တွေ​ကြောင့် ဒီ class ဖြစ်လည်း 
+ဆိုတာ ​ပြောပြ​တော့ decision ချတဲ့သူ​တွေ အတွက်လည်း ဘာ​ကြောင့်
+ဆိုတာ သိ​စေတယ်။ With these, Doctors can make an informed
+decision about whether to trust model's prediction.
+(Idea ရိုးရိုး train ပြီး predict လုပ်ကြည့်မယ်/ 
+lime နဲ့ test data ပမာဏ တစ်ခုကို Human Evaluation လုပ်ကြည့်မယ်)
+Data Label အမှားကို ပြန်ကြည့်မယ်။ 
+Algorithm သုံးခု​လောက်ကို နှိုင်းယှဥ်ပြီး ဘယ်ဟာက make more sense
+ဖြစ်လဲဆိုတာ နှိုင်းယှဥ်မယ်။

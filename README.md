@@ -56,3 +56,6 @@ The second term, -(1 - y) * log(1 - p), measures the loss when the true label is
 The overall loss is a weighted combination of these two terms based on the true label y. The goal during training is to minimize this loss function, typically using optimization techniques like gradient descent. Minimizing the loss encourages the model to make accurate predictions for both positive and negative cases.
 
 Logistic regression aims to find the model parameters (coefficients) that minimize the average log loss across all training examples, resulting in a model that can make accurate binary classifications.
+
+
+https://www.analyticsvidhya.com/blog/2020/11/binary-cross-entropy-aka-log-loss-the-cost-function-used-in-logistic-regression/
